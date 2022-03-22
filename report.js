@@ -36,7 +36,7 @@ function myfun() {
   var td6= document.createElement("td");
   td6.innerText=Number(coding);
   var td7= document.createElement("td");
-    var percent=eval(("dsa+skill+coding")/"30")*"100";
+    var percent=eval((dsa+skill+coding)/30)*100;
     td7.innerText=percent;
     console.log(percent);
   // td8.innerText= s;
